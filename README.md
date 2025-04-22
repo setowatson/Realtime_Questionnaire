@@ -2,7 +2,10 @@
 
 リアルタイムアンケートシステムは、プレゼンテーションやミーティング中に参加者からフィードバックをリアルタイムで収集し、視覚化するためのウェブアプリケーションです。Teams や Zoom などのビデオ会議ツールと併用して使用することを想定しています。
 
-https://v0-new-project-9xoza7a7qwv.vercel.app/admin
+https://v0-new-project-9xoza7a7qwv.vercel.app
+
+<img width="1368" alt="image" src="https://github.com/user-attachments/assets/8b4a3c2b-f6e5-4d3f-9ae1-4bfa98925c76" />
+
 
 ## 機能
 
