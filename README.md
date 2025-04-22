@@ -37,8 +37,8 @@
 1. リポジトリをクローン:
 
 \`\`\`bash
-git clone https://github.com/yourusername/realtime-survey.git
-cd realtime-survey
+git clone https://github.com/setowatson/Realtime_Questionnaire.git
+cd Realtime_Questionnaire
 \`\`\`
 
 2. 依存関係をインストール:
@@ -94,7 +94,7 @@ pnpm dev
 ## プロジェクト構造
 
 \`\`\`
-realtime-survey/
+Realtime_Questionnaire/
 ├── app/                    # Next.js アプリケーションルーター
 │   ├── page.tsx            # メインページ（プレゼンテーション用）
 │   ├── answer/             # 回答ページ
@@ -133,6 +133,11 @@ realtime-survey/
 ## ライセンス
 
 MIT
-\`\`\`
 
-以下は、以前作成したコードファイルです：
+## 作者
+
+[setowatson](https://github.com/setowatson)
+
+## リポジトリ
+
+[Realtime_Questionnaire](https://github.com/setowatson/Realtime_Questionnaire)
