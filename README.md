@@ -1,30 +1,43 @@
-# New Project
+# リアルタイムアンケートシステム
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+リアルタイムアンケートシステムは、プレゼンテーションやミーティング中に参加者からフィードバックをリアルタイムで収集し、視覚化するためのウェブアプリケーションです。Teams や Zoom などのビデオ会議ツールと併用して使用することを想定しています。
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/setowatsons-projects/v0-new-project-9xoza7a7qwv)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/9xoza7a7qwv)
+![リアルタイムアンケートシステム](https://sjc.microlink.io/pBH6whbSjop7_Zx2TTPsSjW0YTbydzGkxM6874pu87NlfmTPyUc6l7Qqu8of9KoGrSX2BIFTrRt4Mw419kf4MA.jpeg)
 
-## Overview
+## 機能
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **リアルタイム回答表示**: 参加者の回答がリアルタイムでグラフに反映
+- **複数質問タイプ**: 選択式、評価（1-5）、テキスト入力の3種類の質問タイプをサポート
+- **QRコード参加**: 参加者はQRコードをスキャンしてアンケートに参加可能
+- **管理者画面**: アンケートのタイトル、説明、質問の追加・編集・削除が可能
+- **レスポンシブデザイン**: モバイルからデスクトップまで様々なデバイスに対応
 
-## Deployment
+## 使用スタック
 
-Your project is live at:
+- **フロントエンド**:
+  - [Next.js 15](https://nextjs.org/) - Reactフレームワーク
+  - [React](https://reactjs.org/) - UIライブラリ
+  - [Tailwind CSS](https://tailwindcss.com/) - スタイリング
+  - [shadcn/ui](https://ui.shadcn.com/) - UIコンポーネント
+  - [Recharts](https://recharts.org/) - データ可視化
+  - [QRCode.react](https://www.npmjs.com/package/qrcode.react) - QRコード生成
+  - [Zustand](https://zustand-demo.pmnd.rs/) - 状態管理
 
-**[https://vercel.com/setowatsons-projects/v0-new-project-9xoza7a7qwv](https://vercel.com/setowatsons-projects/v0-new-project-9xoza7a7qwv)**
+- **バックエンド**:
+  - [Next.js Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions) - サーバーサイドロジック
+  - インメモリデータストレージ（実運用ではデータベースへの置き換えを推奨）
 
-## Build your app
+## インストール方法
 
-Continue building your app on:
+### 前提条件
 
-**[https://v0.dev/chat/projects/9xoza7a7qwv](https://v0.dev/chat/projects/9xoza7a7qwv)**
+- Node.js 18.0.0以上
+- npm または yarn または pnpm
 
-## How It Works
+### セットアップ手順
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. リポジトリをクローン:
+
+```bash
+git clone https://github.com/yourusername/realtime-survey.git
+cd realtime-survey
