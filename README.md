@@ -98,27 +98,27 @@ pnpm dev
 
 ## プロジェクト構造
 
-\`\`\`
+```
 Realtime_Questionnaire/
-├── app/                    # Next.js アプリケーションルーター
-│   ├── page.tsx            # メインページ（プレゼンテーション用）
-│   ├── answer/             # 回答ページ
-│   └── admin/              # 管理者ページ
-├── components/             # Reactコンポーネント
-│   ├── question-display.tsx    # 質問表示コンポーネント
-│   ├── question-result.tsx     # 結果表示コンポーネント
-│   ├── qr-code.tsx             # QRコード表示コンポーネント
-│   ├── client-wrapper.tsx      # クライアントラッパー
-│   ├── error-boundary.tsx      # エラーバウンダリ
-│   └── admin/                  # 管理者用コンポーネント
-├── hooks/                  # カスタムフック
-│   └── use-polling.ts      # ポーリングフック
-├── lib/                    # ユーティリティと型定義
-│   ├── actions.ts          # サーバーアクション
-│   ├── store.ts            # Zustandストア
-│   └── types.ts            # 型定義
-└── public/                 # 静的ファイル
-\`\`\`
+├── app/                          # Next.js アプリケーションルーター
+│   ├── page.tsx                  # メインページ（プレゼンテーション用）
+│   ├── answer/                   # 回答ページ
+│   └── admin/                    # 管理者ページ
+├── components/                   # Reactコンポーネント
+│   ├── question-display.tsx      # 質問表示コンポーネント
+│   ├── question-result.tsx       # 結果表示コンポーネント
+│   ├── qr-code.tsx               # QRコード表示コンポーネント
+│   ├── client-wrapper.tsx        # クライアントラッパー
+│   ├── error-boundary.tsx        # エラーバウンダリ
+│   └── admin/                    # 管理者用コンポーネント
+├── hooks/                        # カスタムフック
+│   └── use-polling.ts            # ポーリングフック
+├── lib/                          # ユーティリティと型定義
+│   ├── actions.ts                # サーバーアクション
+│   ├── store.ts                  # Zustandストア
+│   └── types.ts                  # 型定義
+└── public/                       # 静的ファイル
+```
 
 ## 拡張と改善の可能性
 
